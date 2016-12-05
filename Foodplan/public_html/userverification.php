@@ -21,8 +21,7 @@ if($rows[0]['use_username'] == $username && $rows[0]['use_password'] == $passwor
 }
 else{
    print("Login failed"); 
-}    
-    
+}       
 }
 
 
