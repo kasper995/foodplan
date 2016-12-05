@@ -10,7 +10,6 @@ $result = $conn->myslq_query($sq2);
 
 //get();
  
-
 // makes query into associative array
 $rows = [];
 while($row = mysqli_fetch_array($result, MYSQLI_ASSOC))
